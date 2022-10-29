@@ -1,4 +1,5 @@
 import ListLinks from "../components/ListLinks";
+
 const linksElsewhere = [
   {
        "id": 1,
@@ -12,7 +13,7 @@ const linksElsewhere = [
    },
    {
        "id": 3,
-       "name": "",
+       "name": "facebok",
        "url": "https://www.facebook.com/"
    }
 
@@ -24,9 +25,9 @@ function Footer() {
       {/* w3-center w3-light-grey  w3-large */}
         
         <div className="container">
-        <p className=" col-12"> 
+        <div className=" col-12"> 
         <ListLinks links={linksElsewhere}/>
-      </p>
+      </div>
         </div>
     </footer>
      );
