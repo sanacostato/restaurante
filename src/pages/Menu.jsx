@@ -12,7 +12,7 @@ function Menu() {
         >
           <div className="w3-col s6 tablink w3-dark-grey">Eat</div>
         </a>
-        <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <a href="javascript:void(0)" onclick="openMenu (event, 'Drinks');">
           <div className="w3-col s6 tablink">Drink</div>
         </a>
       </div>

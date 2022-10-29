@@ -1,6 +1,6 @@
 function ListLinks(props) {
     return ( 
-        <ol className="list-unslysted">
+        <ul className="list-unslysted">
             {
                 props.links.map ((item)=>{
                     return (
@@ -10,7 +10,7 @@ function ListLinks(props) {
                     )
                 })
             }
-        </ol>
+        </ul>
      );
 }
 

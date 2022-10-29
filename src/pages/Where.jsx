@@ -2,7 +2,7 @@ function Where() {
     return ( 
         <div className="w3-container" id="where" style={{ paddingBottom: 32 }}>
         <div className="w3-content" style={{ maxWidth: 700 }}>
-          <h5 className="w3-center w3-padding-48">
+          <h5 className="w3-center w3-padding-48 mt-5">
             <span className="w3-tag w3-wide">WHERE TO FIND US</span>
           </h5>
           <p>Find us at some address at some place.</p>

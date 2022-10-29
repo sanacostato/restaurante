@@ -1,17 +1,33 @@
+import ListLinks from "../components/ListLinks";
+const linksElsewhere = [
+  {
+       "id": 1,
+       "name": "Github",
+       "url": "https://github.com/"
+   },
+   {
+       "id": 2,
+       "name": "Twitter",
+       "url": "https://twitter.com/"
+   },
+   {
+       "id": 3,
+       "name": "",
+       "url": "https://www.facebook.com/"
+   }
+
+];
+
 function Footer() {
     return ( 
-        <footer className="w3-center w3-light-grey w3-padding-48 w3-large ">
-      <p>
-        Powered by{" "}
-        <a
-          href="https://www.w3schools.com/w3css/default.asp"
-          title="W3.CSS"
-          target="_blank"
-          className="w3-hover-text-green"
-        >
-          w3.css
-        </a>
+        <footer className="footer  py-3 bg-black mb-0" style={{marginTop:"4rem"}}>
+      {/* w3-center w3-light-grey  w3-large */}
+        
+        <div className="container">
+        <p className=" col-12"> 
+        <ListLinks links={linksElsewhere}/>
       </p>
+        </div>
     </footer>
      );
 }

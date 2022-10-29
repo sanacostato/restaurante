@@ -1,21 +1,21 @@
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function TopBar() {
     return ( 
-        <div className="w3-top">
+        <div className="w3-top  ">
       <div className="w3-row w3-padding w3-black">
         <div className="w3-col s3">
-          <Link className="w3-button w3-block w3-black" to="/home"> HOME </Link>
+          <NavLink className="w3-button w3-block w3-black" to='/home'> HOME </NavLink>
         </div>
        
         <div className="w3-col s3">
-          <Link className="w3-button w3-block w3-black" to="/menu"> MENU </Link>
+          <NavLink className="w3-button w3-block w3-black" to='/menu'> MENU </NavLink>
         </div>
         <div className="w3-col s3">
-          <Link className="w3-button w3-block w3-black" to="/where"> WHERE </Link>
+          <NavLink className="w3-button w3-block w3-black" to='/where'> WHERE </NavLink>
         </div>
         <div className="w3-col s3">
-          <Link className="w3-button w3-block w3-black" to="booking"> BOOKING </Link>
+          <NavLink className="w3-button w3-block w3-black" to='/booking'> BOOKING </NavLink>
         </div>
       </div>
     </div>

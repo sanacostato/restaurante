@@ -1,23 +1,4 @@
-import ListLinks from "../components/ListLinks";
 
-const linksElsewhere = [
-  {
-       "id": 1,
-       "name": "Github",
-       "url": "https://github.com/"
-   },
-   {
-       "id": 2,
-       "name": "Twitterrrrrrrrrr",
-       "url": "https://twitter.com/"
-   },
-   {
-       "id": 3,
-       "name": "Facebook",
-       "url": "https://www.facebook.com/"
-   }
-
-];
 function Home() {
     return ( 
          <header className="bgimg w3-display-container w3-grayscale-min" id="home">
@@ -78,7 +59,6 @@ function Home() {
           </p>
         </div>
       </div>
-      <ListLinks links={linksElsewhere}/>
       </div>
       </header>
      );
