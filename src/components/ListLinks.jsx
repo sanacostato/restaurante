@@ -1,11 +1,13 @@
 function ListLinks(props) {
     return ( 
         <ul className="list-unslysted">
+           
             {
                 props.links.map((item)=>{
                     return (
+                        
                         <li key={item.id}>
-                            <a href={item.url}>{item.name}</a>
+                            <a className="text-light" href={item.url}>{item.name}</a>
                         </li>
                     )
                 })

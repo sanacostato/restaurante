@@ -16,7 +16,9 @@ function TopBar() {
         </div>
         <div className="w3-col s3">
           <NavLink className="w3-button w3-block w3-black" to='/booking'> BOOKING </NavLink>
+          
         </div>
+      
       </div>
     </div>
      );
