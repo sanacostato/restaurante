@@ -24,7 +24,7 @@ function Infobooking() {
         <>
 
             <h3 className="text-aline-center"> <strong className="text-aline-center">Booking Information</strong></h3>
-            <table class="table table-striped">
+            <table className ="table table-striped">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
