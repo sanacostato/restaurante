@@ -46,15 +46,15 @@ function Home() {
             </p>
             <p>Chef, Coffeeist and Owner: Liam Brown</p>
           </div>
-          <div className="container ">
-            <div className="col-6">
+          <div className="w3-row-padding">
+            <div className="w3-half">
           <img
             src="https://www.w3schools.com/w3images/tablesetting2.jpg"
-            style={{ width: "100%", maxWidth: 250 }}
+            style={{ width: "100%", maxWidth: 300 }}
             className="w3-margin-top"
           />
           </div>
-          <div className="col-6">
+          <div className="w3-half text-center pt-5" >
           <p>
             <strong>Opening hours:</strong> everyday from 6am to 5pm.
           </p>
