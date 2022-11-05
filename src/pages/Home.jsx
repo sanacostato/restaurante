@@ -46,17 +46,23 @@ function Home() {
             </p>
             <p>Chef, Coffeeist and Owner: Liam Brown</p>
           </div>
+          <div className="container ">
+            <div className="col-6">
           <img
-            src="/w3images/coffeeshop.jpg"
-            style={{ width: "100%", maxWidth: 1000 }}
+            src="https://www.w3schools.com/w3images/tablesetting2.jpg"
+            style={{ width: "100%", maxWidth: 250 }}
             className="w3-margin-top"
           />
+          </div>
+          <div className="col-6">
           <p>
             <strong>Opening hours:</strong> everyday from 6am to 5pm.
           </p>
           <p>
             <strong>Address:</strong> 15 Adr street, 5015, NY
           </p>
+          </div>
+          </div>
         </div>
       </div>
       </div>
