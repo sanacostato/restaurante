@@ -48,9 +48,9 @@ function Home() {
           <div className="w3-row-padding">
             <div className="w3-half">
           <img
-            // src="https://www.w3schools.com/w3images/tablesetting2.jpg"
-            // style={{ width: "100%", maxWidth: 300 }}
-            // className="w3-margin-top"
+            src="https://www.w3schools.com/w3images/tablesetting2.jpg"
+            style={{ width: "100%", maxWidth: 300 }}
+            className="w3-margin-top"
           />
           </div>
           <div className="w3-half text-center pt-5" >
