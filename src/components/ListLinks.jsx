@@ -6,7 +6,7 @@ function ListLinks(props) {
                 props.links.map((item)=>{
                     return (
                         
-                        <li key={item.id}>
+                        <li key={item.id} >
                             <a className="text-light" href={item.url}>{item.name}</a>
                         </li>
                     )

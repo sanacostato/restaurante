@@ -48,14 +48,15 @@ function Menu() {
         </div>
 
 
-
-      </div>
-    </div>
-    
-    <img
-      src="/w3images/coffeehouse2.jpg"
+        <img
+      src="https://www.w3schools.com/w3images/coffeehouse2.jpg"
       style={{ width: "100%", maxWidth: 1000, marginTop: 32 }}
     /> 
+      </div>
+      
+    </div>
+    
+ 
   </div>
 
   );
